@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- photos => 400x500 -->
+
+    <title>Elite Chat Service</title>
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="icon" href="https://iili.io/2B7pC4n.png">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">EliteChat</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links" id="nav-links">
+                    <a href="#home" class="lang-en">Home</a>
+                    <a href="#hosts" class="lang-en">Our Hosts</a>
+                    <a href="#how-works" class="lang-en">How It Works</a>
+                    <a href="#price" class="lang-en">Pricing</a>
+                    <a href="#contact" class="lang-en">Footer</a>
+                    
+                    <a href="#home" class="lang-es" style="display:none;">Inicio</a>
+                    <a href="#hosts" class="lang-es" style="display:none;">Nuestras Anfitrionas</a>
+                    <a href="#how-works" class="lang-es" style="display:none;">Cómo Funciona</a>
+                    <a href="#price" class="lang-es" style="display:none;">Precios</a>
+                    <a href="#contact" class="lang-es" style="display:none;">pie de página</a>
+                    
+                    <div class="language-switch">
+                        <span class="lang-label-en">EN</span>
+                        <label class="switch">
+                            <input type="checkbox" id="language-toggle">
+                            <span class="slider"></span>
+                        </label>
+                        <span class="lang-label-es">ES</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1 class="lang-en">Connect With Engaging Conversation Partners</h1>
+        <h1 class="lang-es" style="display:none;">Conecta Con Interesantes Compañeras de Conversación</h1>
+        
+        <p class="lang-en">Choose from our diverse roster of professional conversation hosts for stimulating chats in real-time.</p>
+        <p class="lang-es" style="display:none;">Elige entre nuestro diverso grupo de anfitrionas profesionales para conversaciones estimulantes en tiempo real.</p>
+        
+        <a href="#hosts" class="btn lang-en">Meet Our Hosts</a>
+        <a href="#hosts" class="btn lang-es" style="display:none;">Conoce a Nuestras Anfitrionas</a>
+    </section>
+
+    <!-- Host Profiles -->
+    <section class="hosts-section" id="hosts">
+        <div class="container">
+            <h2 class="section-title lang-en">Our Conversation Hosts</h2>
+            <h2 class="section-title lang-es" style="display:none;">Nuestras Anfitrionas de Conversación</h2>
+            
+            <div class="hosts-grid">
+                <!-- Host 1 -->
+                <div class="host-card">
+                    <img src="/api/placeholder/400/500" alt="Sofia" class="host-image">
+                    <div class="host-info">
+                        <h3 class="host-name">Sofia</h3>
+                        <div class="host-details">
+                            <span class="lang-en">Nationality:</span>
+                            <span class="lang-en">Colombian</span>
+                            <span class="lang-es" style="display:none;">Nacionalidad:</span>
+                            <span class="lang-es" style="display:none;">Colombiana</span>
+                            
+                            <span class="lang-en">Age:</span>
+                            <span class="lang-es" style="display:none;">Edad:</span>
+                            <span>26</span>
+                            
+                            <span class="lang-en">Occupation:</span>
+                            <span class="lang-en">Psychology Student</span>
+                            <span class="lang-es" style="display:none;">Ocupación:</span>
+                            <span class="lang-es" style="display:none;">Estudiante de Psicología</span>
+                        </div>
+                        <p class="host-bio lang-en">Sofia loves deep conversations about life, relationships, and human behavior. She's passionate about dance and enjoys sharing stories about Colombian culture.</p>
+                        <p class="host-bio lang-es" style="display:none;">A Sofia le encantan las conversaciones profundas sobre la vida, las relaciones y el comportamiento humano. Le apasiona el baile y disfruta compartiendo historias sobre la cultura colombiana.</p>
+                        <div class="host-cta">
+                            <button class="btn lang-en">Chat Now</button>
+                            <button class="btn lang-es" style="display:none;">Chatear Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Host 2 -->
+                <div class="host-card">
+                    <img src="/api/placeholder/400/500" alt="Elena" class="host-image">
+                    <div class="host-info">
+                        <h3 class="host-name">Elena</h3>
+                        <div class="host-details">
+                            <span class="lang-en">Nationality:</span>
+                            <span class="lang-en">Russian</span>
+                            <span class="lang-es" style="display:none;">Nacionalidad:</span>
+                            <span class="lang-es" style="display:none;">Rusa</span>
+                            
+                            <span class="lang-en">Age:</span>
+                            <span class="lang-es" style="display:none;">Edad:</span>
+                            <span>28</span>
+                            
+                            <span class="lang-en">Occupation:</span>
+                            <span class="lang-en">Fashion Designer</span>
+                            <span class="lang-es" style="display:none;">Ocupación:</span>
+                            <span class="lang-es" style="display:none;">Diseñadora de Moda</span>
+                        </div>
+                        <p class="host-bio lang-en">Elena has a passion for art and design. She enjoys discussing fashion trends, traveling experiences, and loves sharing insights about Russian literature and culture.</p>
+                        <p class="host-bio lang-es" style="display:none;">Elena tiene pasión por el arte y el diseño. Le gusta hablar sobre tendencias de moda, experiencias de viaje y compartir conocimientos sobre literatura y cultura rusa.</p>
+                        <div class="host-cta">
+                            <button class="btn lang-en">Chat Now</button>
+                            <button class="btn lang-es" style="display:none;">Chatear Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Host 3 -->
+                <div class="host-card">
+                    <img src="/api/placeholder/400/500" alt="Jasmine" class="host-image">
+                    <div class="host-info">
+                        <h3 class="host-name">Jasmine</h3>
+                        <div class="host-details">
+                            <span class="lang-en">Nationality:</span>
+                            <span class="lang-en">Thai</span>
+                            <span class="lang-es" style="display:none;">Nacionalidad:</span>
+                            <span class="lang-es" style="display:none;">Tailandesa</span>
+                            
+                            <span class="lang-en">Age:</span>
+                            <span class="lang-es" style="display:none;">Edad:</span>
+                            <span>24</span>
+                            
+                            <span class="lang-en">Occupation:</span>
+                            <span class="lang-en">Yoga Instructor</span>
+                            <span class="lang-es" style="display:none;">Ocupación:</span>
+                            <span class="lang-es" style="display:none;">Instructora de Yoga</span>
+                        </div>
+                        <p class="host-bio lang-en">Jasmine is a spiritual soul who loves discussing wellness, meditation, and holistic living. She can share fascinating stories about Thai traditions and Buddhist philosophy.</p>
+                        <p class="host-bio lang-es" style="display:none;">Jasmine es un alma espiritual que ama hablar sobre bienestar, meditación y vida holística. Puede compartir fascinantes historias sobre tradiciones tailandesas y filosofía budista.</p>
+                        <div class="host-cta">
+                            <button class="btn lang-en">Chat Now</button>
+                            <button class="btn lang-es" style="display:none;">Chatear Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Host 4 -->
+                <div class="host-card">
+                    <img src="/api/placeholder/400/500" alt="Isabella" class="host-image">
+                    <div class="host-info">
+                        <h3 class="host-name">Isabella</h3>
+                        <div class="host-details">
+                            <span class="lang-en">Nationality:</span>
+                            <span class="lang-en">Italian</span>
+                            <span class="lang-es" style="display:none;">Nacionalidad:</span>
+                            <span class="lang-es" style="display:none;">Italiana</span>
+                            
+                            <span class="lang-en">Age:</span>
+                            <span class="lang-es" style="display:none;">Edad:</span>
+                            <span>29</span>
+                            
+                            <span class="lang-en">Occupation:</span>
+                            <span class="lang-en">Culinary Artist</span>
+                            <span class="lang-es" style="display:none;">Ocupación:</span>
+                            <span class="lang-es" style="display:none;">Artista Culinaria</span>
+                        </div>
+                        <p class="host-bio lang-en">Isabella is passionate about Italian cuisine and wine. She loves discussing food, travel experiences across Europe, and sharing the rich history of Italian art and culture.</p>
+                        <p class="host-bio lang-es" style="display:none;">Isabella es apasionada de la cocina italiana y el vino. Le encanta hablar sobre comida, experiencias de viaje por Europa y compartir la rica historia del arte y la cultura italiana.</p>
+                        <div class="host-cta">
+                            <button class="btn lang-en">Chat Now</button>
+                            <button class="btn lang-es" style="display:none;">Chatear Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Host 5 -->
+                <div class="host-card">
+                    <img src="/api/placeholder/400/500" alt="Mia" class="host-image">
+                    <div class="host-info">
+                        <h3 class="host-name">Mia</h3>
+                        <div class="host-details">
+                            <span class="lang-en">Nationality:</span>
+                            <span class="lang-en">Brazilian</span>
+                            <span class="lang-es" style="display:none;">Nacionalidad:</span>
+                            <span class="lang-es" style="display:none;">Brasileña</span>
+                            
+                            <span class="lang-en">Age:</span>
+                            <span class="lang-es" style="display:none;">Edad:</span>
+                            <span>27</span>
+                            
+                            <span class="lang-en">Occupation:</span>
+                            <span class="lang-en">Samba Dancer</span>
+                            <span class="lang-es" style="display:none;">Ocupación:</span>
+                            <span class="lang-es" style="display:none;">Bailarina de Samba</span>
+                        </div>
+                        <p class="host-bio lang-en">Mia is full of energy and loves to talk about Brazilian culture, music, and dance. She can share fascinating stories about carnival traditions and beach life in Rio.</p>
+                        <p class="host-bio lang-es" style="display:none;">Mia está llena de energía y le encanta hablar sobre la cultura, música y danza brasileña. Puede compartir fascinantes historias sobre las tradiciones del carnaval y la vida en las playas de Río.</p>
+                        <div class="host-cta">
+                            <button class="btn lang-en">Chat Now</button>
+                            <button class="btn lang-es" style="display:none;">Chatear Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Host 6 -->
+                <div class="host-card">
+                    <img src="/api/placeholder/400/500" alt="Naomi" class="host-image">
+                    <div class="host-info">
+                        <h3 class="host-name">Naomi</h3>
+                        <div class="host-details">
+                            <span class="lang-en">Nationality:</span>
+                            <span class="lang-en">Japanese</span>
+                            <span class="lang-es" style="display:none;">Nacionalidad:</span>
+                            <span class="lang-es" style="display:none;">Japonesa</span>
+                            
+                            <span class="lang-en">Age:</span>
+                            <span class="lang-es" style="display:none;">Edad:</span>
+                            <span>25</span>
+                            
+                            <span class="lang-en">Occupation:</span>
+                            <span class="lang-en">Anime Artist</span>
+                            <span class="lang-es" style="display:none;">Ocupación:</span>
+                            <span class="lang-es" style="display:none;">Artista de Anime</span>
+                        </div>
+                        <p class="host-bio lang-en">Naomi is creative and passionate about Japanese pop culture. She loves discussing anime, manga, and traditional Japanese customs and can teach you basic Japanese phrases.</p>
+                        <p class="host-bio lang-es" style="display:none;">Naomi es creativa y apasionada de la cultura pop japonesa. Le encanta hablar sobre anime, manga y costumbres tradicionales japonesas, y puede enseñarte frases básicas en japonés.</p>
+                        <div class="host-cta">
+                            <button class="btn lang-en">Chat Now</button>
+                            <button class="btn lang-es" style="display:none;">Chatear Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-works">
+        <div class="container">
+            <h2 class="section-title lang-en">How It Works</h2>
+            <h2 class="section-title lang-es" style="display:none;">Cómo Funciona</h2>
+            
+            <div id="work-cards">
+                <div class="work-card-detail">
+                    <div class="work-number">
+                        <span style="font-size: 2rem; color: white;">1</span>
+                    </div>
+                    <h3 class="lang-en">Choose a Host</h3>
+                    <h3 class="lang-es" style="display:none;">Elige una Anfitriona</h3>
+                    <p class="lang-en" style="margin-top: 15px;">Browse through our diverse selection of conversation hosts and pick someone you'd like to chat with.</p>
+                    <p class="lang-es" style="margin-top: 15px; display:none;">Navega por nuestra diversa selección de anfitrionas de conversación y elige a alguien con quien te gustaría chatear.</p>
+                </div>
+                
+                <div class="work-card-detail">
+                    <div class="work-number">
+                        <span style="font-size: 2rem; color: white;">2</span>
+                    </div>
+                    <h3 class="lang-en">Select a Package</h3>
+                    <h3 class="lang-es" style="display:none;">Selecciona un Paquete</h3>
+                    <p class="lang-en" style="margin-top: 15px;">Choose how long you'd like to chat - we offer various time packages to suit your preferences.</p>
+                    <p class="lang-es" style="margin-top: 15px; display:none;">Elige cuánto tiempo te gustaría chatear - ofrecemos varios paquetes de tiempo para adaptarse a tus preferencias.</p>
+                </div>
+                
+                <div class="work-card-detail">
+                    <div class="work-number">
+                        <span style="font-size: 2rem; color: white;">3</span>
+                    </div>
+                    <h3 class="lang-en">Start Chatting</h3>
+                    <h3 class="lang-es" style="display:none;">Comienza a Chatear</h3>
+                    <p class="lang-en" style="margin-top: 15px;">Connect with your chosen host and enjoy a stimulating conversation in real-time.</p>
+                    <p class="lang-es" style="margin-top: 15px; display:none;">Conéctate con tu anfitriona elegida y disfruta de una conversación estimulante en tiempo real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="price" style="padding: 60px 0;">
+        <div class="container">
+            <h2 class="section-title lang-en">Chat Packages</h2>
+            <h2 class="section-title lang-es" style="display:none;">Paquetes de Chat</h2>
+            
+            <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 40px;">
+                <!-- Basic Package -->
+                <div id="basic-package-card">
+                    <h3 class="lang-en" style="color: var(--accent-color); font-size: 1.8rem;">Basic</h3>
+                    <h3 class="lang-es" style="color: var(--accent-color); font-size: 1.8rem; display:none;">Básico</h3>
+                    
+                    <div style="font-size: 2.5rem; margin: 20px 0;">
+                        <span style="font-size: 1.5rem; vertical-align: super;">$</span>19.99
+                    </div>
+                    
+                    <p class="lang-en" style="margin-bottom: 20px;">30 minutes of chat time</p>
+                    <p class="lang-es" style="margin-bottom: 20px; display:none;">30 minutos de tiempo de chat</p>
+                    
+                    <ul style="list-style: none; text-align: left; margin-bottom: 30px;">
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Text chat only
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Choose any host
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Basic topics
+                        </li>
+                        
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Solo chat de texto
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Elige cualquier anfitriona
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Temas básicos
+                        </li>
+                    </ul>
+                    
+                    <button class="btn lang-en" style="width: 100%;">Get Started</button>
+                    <button class="btn lang-es" style="width: 100%; display:none;">Comenzar</button>
+                </div>
+                
+                <!-- Premium Package -->
+                <div id="premium-package-card">
+                    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: var(--accent-color); color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold;" class="lang-en">Most Popular</div>
+                    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: var(--accent-color); color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; display:none;" class="lang-es">Más Popular</div>
+                    
+                    <h3 class="lang-en" style="color: var(--accent-color); font-size: 1.8rem;">Premium</h3>
+                    <h3 class="lang-es" style="color: var(--accent-color); font-size: 1.8rem; display:none;">Premium</h3>
+                    
+                    <div style="font-size: 2.5rem; margin: 20px 0;">
+                        <span style="font-size: 1.5rem; vertical-align: super;">$</span>49.99
+                    </div>
+                    
+                    <p class="lang-en" style="margin-bottom: 20px;">60 minutes of chat time</p>
+                    <p class="lang-es" style="margin-bottom: 20px; display:none;">60 minutos de tiempo de chat</p>
+                    
+                    <ul style="list-style: none; text-align: left; margin-bottom: 30px;">
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Text & voice chat
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Priority selection
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Advanced topics
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Photo exchange
+                        </li>
+                        
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Chat de texto y voz
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Selección prioritaria
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Temas avanzados
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Intercambio de fotos
+                        </li>
+                    </ul>
+                    
+                    <button class="btn lang-en" style="width: 100%;">Get Started</button>
+                    <button class="btn lang-es" style="width: 100%; display:none;">Comenzar</button>
+                </div>
+                
+                <!-- VIP Package -->
+                <div id="vip-package-card">
+                    <h3 class="lang-en" style="color: var(--accent-color); font-size: 1.8rem;">VIP</h3>
+                    <h3 class="lang-es" style="color: var(--accent-color); font-size: 1.8rem; display:none;">VIP</h3>
+                    
+                    <div style="font-size: 2.5rem; margin: 20px 0;">
+                        <span style="font-size: 1.5rem; vertical-align: super;">$</span>99.99
+                    </div>
+                    
+                    <p class="lang-en" style="margin-bottom: 20px;">120 minutes of chat time</p>
+                    <p class="lang-es" style="margin-bottom: 20px; display:none;">120 minutos de tiempo de chat</p>
+                    
+                    <ul style="list-style: none; text-align: left; margin-bottom: 30px;">
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Text, voice & video chat
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Exclusive hosts
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> All topics available
+                        </li>
+                        <li class="lang-en li-price-sect-en">
+                            <span class="span-price-sect">✓</span> Custom experiences
+                        </li>
+                        
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Chat de texto, voz y video
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Anfitrionas exclusivas
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Todos los temas disponibles
+                        </li>
+                        <li class="lang-es li-price-sect-es">
+                            <span class="span-price-sect">✓</span> Experiencias personalizadas
+                        </li>
+                    </ul>
+                    
+                    <button class="btn lang-en" style="width: 100%;">Get Started</button>
+                    <button class="btn lang-es" style="width: 100%; display:none;">Comenzar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-column">
+                    <h3 class="lang-en">EliteChat</h3>
+                    <h3 class="lang-es" style="display:none;">EliteChat</h3>
+                    <ul>
+                        <li><a href="#" class="lang-en">Work with us</a></li>
+                        <li><a href="#" class="lang-es" style="display:none;">Trabaja con nosotros</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div class="footer-column">
+                    <h3 class="lang-en">Legal</h3>
+                    <h3 class="lang-es" style="display:none;">Legal</h3>
+                    <ul>
+                        <li><a href="terms.html" class="lang-en">Terms of Service</a></li>
+                        <li><a href="policy.html" class="lang-en">Privacy Policy</a></li>
+                        
+                        <li><a href="terms.html" class="lang-es" style="display:none;">Términos de Servicio</a></li>
+                        <li><a href="policy.html" class="lang-es" style="display:none;">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="footer-column">
+                    <h3 class="lang-en">Stay Connected</h3>
+                    <h3 class="lang-es" style="display:none;">Mantente Conectado</h3>
+                    <div style="display: flex; gap: 15px;">
+                        <a href="#" class="soc-med"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="soc-med"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="soc-med"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="soc-med"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p class="lang-en">&copy; 2025 EliteChat. All rights reserved.</p>
+                <p class="lang-es" style="display:none;">&copy; 2025 EliteChat. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    
+    <!-- JavaScript for Language Toggle and Mobile Menu -->
+    <script src="script.js" ></script>
+</body>
+</html>
